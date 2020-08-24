@@ -1,0 +1,29 @@
+{
+  "name": "appilicous",
+  "version": "1.0.0",
+  "description": "App landing page",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "node-sass sass/main.scss css/main.css -w",
+    "sync": "browser-sync start --server --files \"css/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnjcollins/appilicous.git"
+  },
+  "keywords": [
+    "appilicous",
+    "landing",
+    "page"
+  ],
+  "author": "John J. Collins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnjcollins/appilicous/issues"
+  },
+  "homepage": "https://github.com/johnjcollins/appilicous#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "node-sass": "^4.14.1"
+  }
+}
